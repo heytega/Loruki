@@ -10,6 +10,20 @@
     <title>Loruki | Cloud Hosting For Everyone</title>
 </head>
 <body>
+    <!-- SideNav -->
+    <aside class="sideNav card">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Docs</a></li>
+        </ul>
+    </aside>
+
+    <button class="button">
+        <i class="fas fa-bars" id="openNav" onclick="openSideMenu()" aria-label="side menu bar"></i>
+        <i class="fas fa-times" id="closeNav" onclick= "closeSideMenu()" aria-label="close menu bar"></i>
+    </button>
+    
     <!-- Navbar -->
     <div class="navbar">
         <div class="container flex">
@@ -111,5 +125,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
